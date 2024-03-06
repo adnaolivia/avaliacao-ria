@@ -8,6 +8,9 @@
 
 
 //Q4 - tocar cor das tags label usando classList
-
+const labels = document.getElementsByTagName("label");
+for (let i = 0; i < labels.length; i++) {
+    labels[i].classList.add("nova-classe-de-cor");
+  }
 
 //Q5 - adicionar uma tag de hiperlink <a> abaixo dos botões do fomulário
